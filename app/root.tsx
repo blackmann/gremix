@@ -1,3 +1,8 @@
+import 'virtual:uno.css';
+
+import '@unocss/reset/tailwind.css';
+import './styles.css';
+
 import {
   Links,
   Meta,
@@ -5,6 +10,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import { PendingUI } from './components/pending-ui';
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -16,6 +22,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <PendingUI />
         {children}
         <ScrollRestoration />
         <Scripts />
