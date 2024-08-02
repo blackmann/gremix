@@ -8,3 +8,5 @@ A Remix.run 💿 starter template. Includes the following setup:
 - `clsx` dependency
 - prisma with helper scripts
 - `<PendingUi />`
+- Stories to preview existing components and to visualize yours. `yarn stories`
+- Uses [biome](https://biomejs.dev) for linting and formatting
