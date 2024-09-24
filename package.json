@@ -23,7 +23,7 @@
     "@remix-run/serve": "^2.9.2",
     "clsx": "^2.1.1",
     "isbot": "^4.1.0",
-    "prisma": "^5.14.0",
+    "prisma": "^5.19.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "unocss": "^0.60.2"

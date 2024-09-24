@@ -11,3 +11,4 @@ A Remix.run 💿 starter template. Includes the following setup:
 - Stories to preview existing components and to visualize yours. `yarn stories`
 - Uses [biome](https://biomejs.dev) for linting and formatting
 - Type-safe localstorage API. See [client-preferences](/app/lib/client-preference.ts)
+- Prisma
