@@ -2,13 +2,21 @@
 
 > Do great stuff
 
-A Remix.run 💿 starter template. Includes the following setup:
+A ~~Remix.run~~ React Router 💿 starter template for SSR. Includes the following setup:
 
-- UnoCSS with Tailwind, Lucide Icons, Spinner presets: https://icones.js.org/
+- UnoCSS with Tailwind, Lucide Icons, Solar Icons, Spinner presets: https://icones.js.org/
 - `clsx` dependency
-- prisma with helper scripts
+- Prisma with helper scripts
 - `<PendingUi />`
-- Stories to preview existing components and to visualize yours. `yarn stories`
 - Uses [biome](https://biomejs.dev) for linting and formatting
-- Type-safe localstorage API. See [client-preferences](/app/lib/client-preference.ts)
-- Prisma
+- Type-safe localstorage API. See [client-preferences](/app/lib/client-preference.ts) and [this post](https://degreat.co.uk/blog/typesafe-localstorage).
+- `useColorScheme` hook to help you know when the app is in light or dark mode.
+
+## Environment variables
+
+Here are the environment variables you need:
+
+```sh
+DATABASE_URL= # required if you'll use Prisma
+COOKIE_SECRET= # optional
+```
