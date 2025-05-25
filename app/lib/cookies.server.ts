@@ -1,6 +1,6 @@
 import { createCookie } from "react-router";
 
-export const MAX_COOKIE_AGE = 60 * 60 * 24 * 14 * 1000; // 14 days
+export const MAX_COOKIE_AGE = 60 * 60 * 24 * 14; // 14 days
 
 // About cookies: https://remix.run/docs/en/main/utils/cookies
 
