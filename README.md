@@ -11,6 +11,7 @@ A ~~Remix.run~~ React Router 💿 starter template for SSR. Includes the followi
 - Uses [biome](https://biomejs.dev) for linting and formatting
 - Type-safe localstorage API. See [client-preferences](/app/lib/client-preference.ts) and [this post](https://degreat.co.uk/blog/typesafe-localstorage).
 - `useColorScheme` hook to help you know when the app is in light or dark mode.
+- Uses a [Hono](https://github.com/rphlmr/react-router-hono-server) server (instead of express)
 
 ## Environment variables
 
