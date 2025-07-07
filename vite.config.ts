@@ -5,5 +5,10 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-	plugins: [reactRouterHonoServer(), reactRouter(), UnoCSS(), tsconfigPaths()],
+	plugins: [
+		reactRouterHonoServer({ dev: { exclude: ["/__uno.css"] } }),
+		reactRouter(),
+		UnoCSS(),
+		tsconfigPaths(),
+	],
 });
