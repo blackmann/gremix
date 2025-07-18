@@ -6,7 +6,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
 	plugins: [
-		reactRouterHonoServer({ dev: { exclude: ["/__uno.css"] } }),
+		reactRouterHonoServer({ dev: { exclude: [/\/__uno.css/] } }),
 		reactRouter(),
 		UnoCSS(),
 		tsconfigPaths(),
