@@ -6,7 +6,7 @@
   font-family: Inter, system-ui, -apple-system, sans-serif;
   color-scheme: light dark;
 
-  @apply bg-zinc-100 dark:bg-neutral-900
+  @apply bg-zinc-100 dark:bg-neutral-900;
 }
 
 .text-secondary {

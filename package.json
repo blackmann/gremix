@@ -18,10 +18,10 @@
     "@iconify-json/solar": "^1.2.2",
     "@iconify-json/svg-spinners": "^1.2.2",
     "@julr/unocss-preset-forms": "^1.0.0",
-    "@react-router/fs-routes": "^7.6.3",
-    "@react-router/node": "^7.6.3",
-    "@react-router/serve": "^7.6.3",
-    "@unocss/reset": "66.1.2",
+    "@react-router/fs-routes": "^7.8.1",
+    "@react-router/node": "^7.8.1",
+    "@react-router/serve": "^7.8.1",
+    "@unocss/reset": "66.4.2",
     "clsx": "^2.1.1",
     "isbot": "^5.1.27",
     "prisma": "^6.6.0",
@@ -30,10 +30,10 @@
     "react-hook-form": "^7.56.1",
     "react-router": "^7.0.0",
     "react-router-hono-server": "^2.16.0",
-    "unocss": "^66.3.3"
+    "unocss": "^66.4.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.2.0",
     "@react-router/dev": "^7.0.0",
     "@types/node": "^22.15.21",
     "@types/react": "^19.1.8",
