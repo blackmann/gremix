@@ -2,7 +2,7 @@
   "name": "gremix",
   "private": true,
   "sideEffects": false,
-  "version": "0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "build": "react-router build",
